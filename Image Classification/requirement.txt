@@ -1,0 +1,21 @@
+# Hand Gesture Recognition System Dependencies
+# Requires Python 11 for optimal compatibility
+
+# Core computer vision libraries
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+
+# Data processing and visualization
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# File handling and downloads
+wget>=3.2
+urllib3>=2.0.0
+
+# System control (for volume and brightness control)
+pycaw>=20230407; sys_platform == "win32"
+screen-brightness-control>=0.15.0
+
+# Additional utilities
+pillow>=10.0.0
